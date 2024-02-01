@@ -107,7 +107,7 @@ systemctl start usrp-bridge-discord.service
 
 Here are the bot's commands:
 
-> ![NOTE]
+> ![IMPORTANT]
 > You must be in a voice channel first
 
 * `!join` : Make the bot join the channel
