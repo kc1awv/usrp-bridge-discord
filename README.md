@@ -98,7 +98,8 @@ You may also use `Environment` directives in the unit file instead of the .env f
 Reload systemd and start the service
 
 ```bash
-systemctl start usrp-bridge-discord.service
+sudo systemctl daemon-reload
+sudo systemctl start usrp-bridge-discord.service
 # or enable it at boot:
 # systemctl enable usrp-bridge-discord.service
 ```
